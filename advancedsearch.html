@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Google Advanced Search</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <a href="index.html">googlesearch</a>
+    <a href="imagesearch.html">Image Search</a>
+    <h2>Advanced Search</h2>
+    <form action="https://www.google.com/search">
+        All these words:<input type="text" name="as_q" >
+      <br/>
+      This exact word or phrase:<input type="text" name="as_epq" >
+      <br/>
+      Any of these words:<input type="text" name="as_oq">
+      <br/>
+      None of these words:<input type="text" name="as_eq" >
+      <br><br>
+      Numbers ranging from:<input type="number" name="as_oq" >   to   <input type="number" name="as_eq" >
+      <br><br>
+      <hr>
+       Then narrow your<br>
+       results by....<br>
+      <label for="as_sitesearch">Search within a site (or domain):</label>
+      <input type="text" id="as_sitesearch" name="as_sitesearch">
+      <br><br>
+      <label for="as_filetype">File type (pdf, doc, xls, ppt):</label>
+      <input type="text" id="as_filetype" name="as_filetype">
+      <br><br>
+      <label for="lr">language:</label>
+      <select id="lr" name="lr">
+        <option value="">any language</option>
+        <option value="_lang_en">English</option>
+        <option value="_lang_fr">French</option>
+        <option value="_lang_de">German</option>
+        <option value="_lang_es">Spanish</option>
+        <option value="_lang_ru">Russian</option>
+        <option value="_lang_Hi">Hindi</option>
+      </select>
+      <br><br>
+      <label for="cr">region:</label>
+      <select id="cr" name="cr">
+        <option value="">any region</option>
+        <option value="_gl_us">United States</option>
+        <option value="_gl_ca">Canada</option>
+        <option value="_gl_uk">United Kingdom</option>
+        <option value="_gl_in">India</option> 
+      </select>
+      <br><br>
+      <label for="as_rights">Usage rights:</label>
+      <select id="as_rights" name="as_rights">
+        <option value="">Not filtered by license</option>
+        <option value="l">labeled for reuse</option>
+        <option value="f">labeled for reuse with modification</option>
+        <option value="fc">labeled for noncommercial reuse</option>
+        <option value="fm">labeled for noncommercial reuse with modification</option>
+      </select>
+      <br><br>
+      <input type="submit" value="Advanced Search">
+    </form>
+    
+  </body>
+</html>
+
